@@ -1,9 +1,9 @@
 ## github-actions.yml의 최상단입니다.
 env:
-  S3_BUCKET_NAME: blog-aws-practice-build
-  PROJECT_NAME: blog-aws-practice
-  CODE_DEPLOY_APP_NAME: blog-aws-practice
-  CODE_DEPLOY_GROUP_NAME: blog-aws-practice-group
+  S3_BUCKET_NAME: freelec-bucket
+  PROJECT_NAME: SpringTest
+  CODE_DEPLOY_APP_NAME: freelec-springboot-webservice
+  CODE_DEPLOY_GROUP_NAME: freelec-springboot-webservice-group
 
 name: deploy
 
